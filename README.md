@@ -16,7 +16,7 @@ This project demonstrates how to implement a secure contact form using [Nodemail
 This project is part of the **Dev Steps Tutorials** series.  
 Follow the complete step-by-step guide here:
 
-**[Nodemailer Setup Tutorial on jkturner.site](http://jkturner.site/tutorials/react-ecosystem/nodemailer/nodemailer-setup)**
+**[Nodemailer Setup Tutorial on jkturner.site](http://jkturner.site/tutorials/react-ecosystem/nodemailer)**
 
 ## Tech Stack
 
