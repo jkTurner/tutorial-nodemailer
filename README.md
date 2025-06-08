@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nodemailer Setup (Next.js 15)
 
-## Getting Started
+This project demonstrates how to implement a secure contact form using [Nodemailer](https://nodemailer.com/about/) and Gmail SMTP in a **Next.js 15** application. It's a companion reference to the tutorial in the **Dev Steps Tutorials** series by Jakkrit Turner.
 
-First, run the development server:
+## What This Project Covers
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Google App Password configuration for Gmail SMTP
+- Setting up environment variables securely
+- Creating a POST API route to send email via Nodemailer
+- Building a contact form using React and Tailwind CSS
+- Sending emails from the frontend using `fetch`
+- Clear code structure and component separation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Read the Full Tutorial
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is part of the **Dev Steps Tutorials** series.  
+Follow the complete step-by-step guide here:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**[Nodemailer Setup Tutorial on jkturner.site](http://jkturner.site/tutorials/react-ecosystem/nodemailer/nodemailer-setup)**
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js 15.3.3
+- Nodemailer 7.0.3
+- Tailwind CSS 4
